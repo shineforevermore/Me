@@ -1,0 +1,51 @@
+body {
+  background-color: 	#F0F8FF;
+}
+
+h2{
+  
+  color: white;
+  background-color: green;
+}
+
+div h2 {
+  
+ border: brown;
+ color: white;
+ background-color: black;
+ font-size: 50%; 
+}
+
+a {
+  
+color: blue;
+font: 0%;
+border: 1px solid yellow;
+}
+
+
+div p {
+color: white;
+background-color: brown;
+border: 3px solid black;
+  
+  font-size: 150%;
+}
+
+
+p{border: 2px solid powderblue;
+   font-size: 30%;
+  background-color: black;
+  color: white;
+  align: right;
+  }
+  
+  
+  
+  
+  h5{
+  font-size: 150%;  
+  color: white;
+  background-color: black;
+  border: 3px solid red!
+  }
