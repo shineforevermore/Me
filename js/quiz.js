@@ -33,7 +33,7 @@ result.textContent='Your result is '+c+'. is not so good please try to work on y
 } 
 else {
 
-result.textContent='Your result is '+c+'. is awesome. Keep it up!.'
+result.textContent='Your result is '+c+'. is awesome Keep it up!.'
 }
 
 }
