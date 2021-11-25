@@ -38,6 +38,8 @@ result.textContent='Your result is '+c+'. is awesome. Keep it up!.'
 
 }
 
+}
+
 
    
         
