@@ -5,8 +5,8 @@ border: 2px solid blue;
 padding-top: 15px;
 padding:  9px;
 background-color: yellow;
-border-radius: 4px;
-img: center;
+border-radius: 10px;
+
 
 
   
@@ -22,19 +22,20 @@ body {
 
 h2 { color: black;
 background-color:#8F9779 ;
-font-size: 200%;
+font-size: 350%;
 text-align: center; 
-border: 2px solid green;
+border: 3px solid green;
+  border-radius: 10px
   
 }
 
 p {
   text-align: right;
-  font-size: 100%;
-  background-color:red;
+  font-size: 200%;
+  background-color: purple;
   color: white;
   border: 4px solid white;
-  margin-left: 20rem;
+  margin-left: 100rem;
   
   
 }
