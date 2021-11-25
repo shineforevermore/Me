@@ -28,12 +28,12 @@ quiz.style.display="none";
 
 if (c<=3) {
 
-result.textContent='Your result is '+c+'. is not so good please try to work on yourself.'
+result.textContent='Your result is not so good please try to work on yourself.'
 
 } 
 else {
 
-result.textContent='Your result is '+c+'. is awesome Keep it up!.'
+result.textContent='Your result is awesome Keep it up!.'
 }
 
 }
