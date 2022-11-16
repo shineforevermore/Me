@@ -1,0 +1,46 @@
+
+a {
+  background-color: black;
+  color: white;
+  border: 1px solid red;
+  font-size: 15px;
+  align: right;
+  box-shadow: 2px 4px green;
+  font-style: italic;
+}
+
+h1{
+   color: red;
+   font-style: oblique;
+   text-shadow: 2px 4px black;
+   text-align: center;
+      
+}
+
+marquee{
+            height: 22px;
+            color: white;
+            border: 1px solid black;
+            move: left;
+            direction: down;
+            background-color: red;
+        
+        }
+
+
+h3{
+  color: green;
+  font-style: italic;
+  text-shadow: 3px 5px yellow;
+}
+
+p{
+  
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px purple;
+  text-align: center;
+  text-shadow: 1px 1px yellow;
+  
+  }
+  
