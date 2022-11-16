@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>MeMe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Alajka">
+    <meta name="keywords" content="shinefor evermore,read, cartoons, animation">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/vnd.microsoft.icon">
+    
+
+    <!--custom css-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div>
+    
+            <a href="index.hrml"> Home </a> |
+            <a href="Learn.html"> Learn </a>| 
+            <a href="Stories.html""> Stories </a>|
+            <a href="Drawings.html"> Drawings </a>|
+            <a href="Music"> Music </a>|
+            <a href="Anime.html"> Anime </a> |
+            <a href="Quotes.html"> Quotes</a> |
+            <a href="Programming.html"> Programming</a> |
+            <a href="Alajka.html"> Alajka </a>|
+            <a href="Contact.html"> Contact </a>|
+
+            <h1>SHINEFOR-EVERMORE</h1>
+            <marquee direction="right"> The Great Alajka  </marquee>
+            
+</div>
+
+<h3>Place to Learn</h3>
+<p> I have everything for you. Stuffs like fantastic videos, learn how to draw and animate!... Make your own music and publish them.  I will add more stuff base on programming and Technology later.
+</p>
+
+<h3>Stories</h3>
+<p>I got a few stories to share with you and I even make an animation over them.  It's pretty super cool to watch.
+Here's the list:
+Island of Bynia.
+5 o'clock.
+3Gangsters.
+Sand & Storm.
+Plus More are coming!
+</p>
+
+
+<h3>Drawings</h3>
+
+<p>Wants to learn drawing of anything?!
+You've come to the ocean of it. Here's we might help you on you drawings.
+From basic to intermediate to advance ones. Keep coming to this site... We'll help.</p>
+
+<h3>Music</h3>
+<p>Wow!!! I know you like music!!!
+They say music is soul... We'll help you on how you may write your lyrics in best way. Plus, there's couples of software for both PC and android where you can be able to beat the kind of instrumental you've love and voice rap over it. </p> 
+
+<h3>Animation</h3>
+<p>Wanna learn how to make you cartoon move in a animated way...
+You've come to the door. I got something for you if you are really ready to have a mind on.</p> 
+<h3>More are coming!</h3>
+<p> More are coming</p>
+
+
+
+<!--main js-->
+<h6 id="demo"></h6>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Feb 14, 2023 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+</body>
+
+<footer>
+      <h6> © HotFlo-Alajka™ II 30-Oct-2021 | All Rights Reserved </h6>
+   </footer>
+</body>
+</html>
